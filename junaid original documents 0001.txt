@@ -1,0 +1,33 @@
+junaid0001@@@$$$
+
+
+junaid002
+
+
+
+SSID:	junaidsheik002
+Protocol:	Wi-Fi 4 (802.11n)
+Security type:	WPA2-Personal
+Network band:	2.4 GHz
+Network channel:	9
+Link speed (Receive/Transmit):	52/52 (Mbps)
+Link-local IPv6 address:	fe80::8377:d846:5f7b:913a%21
+IPv4 address:	192.168.100.18
+IPv4 DNS servers:	192.168.100.1
+Manufacturer:	Intel Corporation
+Description:	Intel(R) Dual Band Wireless-AC 7265
+Driver version:	19.51.24.3
+Physical address (MAC):	4E-57-94-92-4C-DD
+
+
+https://github.com/panaverse/learn-typescript/blob/master/step09b_function_optional_parameter/app.ts
+
+
+https://github.com/panaverse/learn-typescript/tree/master/step09e_async
+
+
+#Promise Fuction Call back
+#Synchoniation Funtion
+
+
+
