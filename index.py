@@ -1,25 +1,22 @@
-# Python (PY):
+# Description: This program stores your favorite number in a variable, creates a message that reveals your favorite number, and then prints the message to the console.
 
-# Store your favorite number in a variable
-favorite_number = 7
+# Python (Famous Quote)
 
-# Create a message revealing your favorite number
-message = f"My favorite number is {favorite_number}."
+# Store the famous person's name in a variable
+famous_person = "Albert Einstein"
+
+# Define the famous quote
+quote = "Imagination is more important than knowledge."
+
+# Compose the message
+message = f'"{quote}" - {famous_person}'
 
 # Print the message
 print(message)
 
-# To run these examples:
+# Description: This program stores a famous person's name and a famous quote in variables, composes a message with the quote and author, and then prints the message in Python.
 
-# Create the respective files for TypeScript (or JavaScript), HTML, and Python as shown above.
-
-# For TypeScript or JavaScript, you can follow the instructions provided in the previous responses to run the code.
-
-# For Python, you can simply execute the Python script in your preferred Python environment.
-
-# Open the HTML file in a web browser, and you'll see the message revealing your favorite number displayed on the webpage, styled using CSS (if needed).
-
-# These code snippets will store your favorite number in a variable and reveal it in a message in multiple programming languages.
+# These comments help provide a brief description of what each program does.
 
 
 
