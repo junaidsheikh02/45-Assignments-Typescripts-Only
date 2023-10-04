@@ -1,11 +1,11 @@
-# Store the person's name with leading and trailing whitespace
-person_name_with_whitespace = "\t  John Doe \n"
+# Addition
+print("Addition:", 5 + 3)
 
-# Print the name with whitespace
-print("Name with Whitespace:")
-print(person_name_with_whitespace)
+# Subtraction
+print("Subtraction:", 10 - 2)
 
-# Strip the whitespace and print the cleaned name
-stripped_name = person_name_with_whitespace.strip()
-print("\nName after Stripping Whitespace:")
-print(stripped_name)
+# Multiplication
+print("Multiplication:", 4 * 2)
+
+# Division
+print("Division:", 16 / 2)

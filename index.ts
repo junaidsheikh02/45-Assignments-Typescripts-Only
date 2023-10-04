@@ -1,11 +1,11 @@
-// Store the person's name with leading and trailing whitespace
-let personNameWithWhitespace: string = "\t  John Doe \n";
+// Addition
+console.log("Addition:", 5 + 3);
 
-// Print the name with whitespace
-console.log("Name with Whitespace:");
-console.log(personNameWithWhitespace);
+// Subtraction
+console.log("Subtraction:", 10 - 2);
 
-// Strip the whitespace and print the cleaned name
-let strippedName: string = personNameWithWhitespace.trim();
-console.log("\nName after Stripping Whitespace:");
-console.log(strippedName);
+// Multiplication
+console.log("Multiplication:", 4 * 2);
+
+// Division
+console.log("Division:", 16 / 2);

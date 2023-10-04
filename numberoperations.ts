@@ -1,8 +1,15 @@
-// Store your favorite number in a variable
-const favorite_number: number = 42;
+// Addition: 4 + 4 = 8
+const additionResult: number = 4 + 4;
+console.log(`Addition: 4 + 4 = ${additionResult}`);
 
-// Create a message that reveals your favorite number
-const message: string = `My favorite number is ${favorite_number}.`;
+// Subtraction: 10 - 2 = 8
+const subtractionResult: number = 10 - 2;
+console.log(`Subtraction: 10 - 2 = ${subtractionResult}`);
 
-// Print the message
-console.log(message);
+// Multiplication: 2 * 4 = 8
+const multiplicationResult: number = 2 * 4;
+console.log(`Multiplication: 2 * 4 = ${multiplicationResult}`);
+
+// Division: 16 / 2 = 8
+const divisionResult: number = 16 / 2;
+console.log(`Division: 16 / 2 = ${divisionResult}`);
