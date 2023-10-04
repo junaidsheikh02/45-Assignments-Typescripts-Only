@@ -1,11 +1,8 @@
-// Addition
-console.log("Addition:", 5 + 3);
+//Certainly! If you want to print the result of each operation without additional text, you can do so with these lines in TypeScript (TS), JavaScript (JS), HTML, CSS, and Python (PY):
 
-// Subtraction
-console.log("Subtraction:", 10 - 2);
+//TypeScript (TS):
 
-// Multiplication
-console.log("Multiplication:", 4 * 2);
-
-// Division
-console.log("Division:", 16 / 2);
+console.log(5 + 3);
+console.log(10 - 2);
+console.log(4 * 2);
+console.log(16 / 2);

@@ -1,11 +1,6 @@
-// Addition
-console.log("Addition:", 5 + 3);
+//JavaScript (JS):
 
-// Subtraction
-console.log("Subtraction:", 10 - 2);
-
-// Multiplication
-console.log("Multiplication:", 4 * 2);
-
-// Division
-console.log("Division:", 16 / 2);
+console.log(5 + 3);
+console.log(10 - 2);
+console.log(4 * 2);
+console.log(16 / 2);
