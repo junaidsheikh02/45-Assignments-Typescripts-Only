@@ -1,6 +1,10 @@
-//JavaScript (JS):
+// JavaScript (JS):
 
-console.log(5 + 3);
-console.log(10 - 2);
-console.log(4 * 2);
-console.log(16 / 2);
+// Store your favorite number in a variable
+let favoriteNumber = 7;
+
+// Create a message revealing your favorite number
+let message = `My favorite number is ${favoriteNumber}.`;
+
+// Print the message
+console.log(message);
