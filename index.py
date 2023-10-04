@@ -1,11 +1,11 @@
-# Store the person's name in a variable
-person_name = "Eric"
+# Store the famous person's name in a variable
+famous_person = "Albert Einstein"
 
-# Print the name in lowercase
-print(f"Lowercase: {person_name.lower()}")
+# Define the famous quote
+quote = "Imagination is more important than knowledge."
 
-# Print the name in uppercase
-print(f"Uppercase: {person_name.upper()}")
+# Compose the message
+message = f'"{quote}" - {famous_person}'
 
-# Print the name in titlecase
-print(f"Titlecase: {person_name.title()}")
+# Print the message
+print(message)

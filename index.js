@@ -1,11 +1,11 @@
-// Store the person's name in a variable
-let personName = "Eric";
+// Store the famous person's name in a variable
+let famousPerson = "Albert Einstein";
 
-// Print the name in lowercase
-console.log(`Lowercase: ${personName.toLowerCase()}`);
+// Define the famous quote
+let quote = "Imagination is more important than knowledge.";
 
-// Print the name in uppercase
-console.log(`Uppercase: ${personName.toUpperCase()}`);
+// Compose the message
+let message = `"${quote}" - ${famousPerson}`;
 
-// Print the name in titlecase
-console.log(`Titlecase: ${personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase()}`);
+// Print the message
+console.log(message);

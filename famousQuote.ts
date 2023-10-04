@@ -1,8 +1,11 @@
-// Step 1: Store the famous person's name in a variable
-const famous_person: string = "Albert Einstein";
+// Store the famous person's name in a variable
+let famousPerson: string = "Albert Einstein";
 
-// Step 2: Compose your message using the famous quote and the famous person's name
-const message: string = famous_person + " once said, 'Imagination is more important than knowledge.'";
+// Define the famous quote
+let quote: string = "Imagination is more important than knowledge.";
 
-// Step 3: Print your message
+// Compose the message
+let message: string = `"${quote}" - ${famousPerson}`;
+
+// Print the message
 console.log(message);

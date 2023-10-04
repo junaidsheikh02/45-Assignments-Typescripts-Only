@@ -1,1 +1,7 @@
-/* You can style the HTML output if needed */
+/* Style the quote as needed */
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+}
