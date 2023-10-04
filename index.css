@@ -1,7 +1,5 @@
-/* Style the quote as needed */
-.quote {
-    font-size: 18px;
-    font-style: italic;
+/* Style the content as needed */
+.content {
     text-align: center;
     margin-top: 50px;
 }

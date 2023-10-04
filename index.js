@@ -1,11 +1,11 @@
-// Store the famous person's name in a variable
-let famousPerson = "Albert Einstein";
+// Store the person's name with leading and trailing whitespace
+let personNameWithWhitespace = "\t  John Doe \n";
 
-// Define the famous quote
-let quote = "Imagination is more important than knowledge.";
+// Print the name with whitespace
+console.log("Name with Whitespace:");
+console.log(personNameWithWhitespace);
 
-// Compose the message
-let message = `"${quote}" - ${famousPerson}`;
-
-// Print the message
-console.log(message);
+// Strip the whitespace and print the cleaned name
+let strippedName = personNameWithWhitespace.trim();
+console.log("\nName after Stripping Whitespace:");
+console.log(strippedName);

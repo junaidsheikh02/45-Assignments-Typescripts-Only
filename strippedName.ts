@@ -1,10 +1,11 @@
-const personNameWithWhitespace: string = "\t\n   John Doe   \t\n"; // Including "\t" and "\n" for whitespace
+// Store the person's name with leading and trailing whitespace
+let personNameWithWhitespace: string = "\t  John Doe \n";
 
+// Print the name with whitespace
 console.log("Name with Whitespace:");
 console.log(personNameWithWhitespace);
 
-// Remove leading and trailing whitespace
-const strippedName: string = personNameWithWhitespace.trim();
-
-console.log("\nStripped Name:");
+// Strip the whitespace and print the cleaned name
+let strippedName: string = personNameWithWhitespace.trim();
+console.log("\nName after Stripping Whitespace:");
 console.log(strippedName);

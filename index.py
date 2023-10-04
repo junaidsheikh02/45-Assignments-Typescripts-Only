@@ -1,11 +1,11 @@
-# Store the famous person's name in a variable
-famous_person = "Albert Einstein"
+# Store the person's name with leading and trailing whitespace
+person_name_with_whitespace = "\t  John Doe \n"
 
-# Define the famous quote
-quote = "Imagination is more important than knowledge."
+# Print the name with whitespace
+print("Name with Whitespace:")
+print(person_name_with_whitespace)
 
-# Compose the message
-message = f'"{quote}" - {famous_person}'
-
-# Print the message
-print(message)
+# Strip the whitespace and print the cleaned name
+stripped_name = person_name_with_whitespace.strip()
+print("\nName after Stripping Whitespace:")
+print(stripped_name)
