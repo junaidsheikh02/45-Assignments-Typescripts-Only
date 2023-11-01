@@ -1,0 +1,384 @@
+Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+
+/* You can add styles to your HTML content here if desired */
+
+
+Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+
+/* You can add styles to your HTML content here if desired */
+
+
+Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #quote {
+    font-style: italic;
+    color: #007acc;
+  }
+
+
+  Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #quote {
+    font-style: italic;
+    color: #007acc;
+  }
+
+  
+
+  Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+
+/* Style the name with whitespace */
+.name {
+    white-space: pre-wrap;
+}
+
+/* Style the name without whitespace */
+.name.stripped {
+    white-space: normal;
+}
+
+
+Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS to style the div element */
+    #number-eight {
+      font-size: 24px;
+      text-align: center;
+      background-color: #3498db;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="number-eight">8</div>
+</body>
+</html>
+
+
+You should create four lines that look like this:
+
+console.log(5 + 3)
+
+Your output should simply be four lines with the number 8 appearing once on each line.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number 8 with CSS</title>
+  <style>
+    .number {
+      font-size: 24px;
+      font-weight: bold;
+      background-color: lightblue;
+      padding: 10px;
+      border: 1px solid navy;
+      border-radius: 5px;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="number">8</div>
+</body>
+</html>
+
+
+Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+
+.favorite-number {
+    font-size: 18px;
+    color: blue;
+  }
+  
+  .number {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+  }
+
+  Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+
+  .favorite-number {
+    font-size: 18px;
+    color: blue;
+  }
+  
+  .number {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+  }
+
+  
+  Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+
+/* CSS for Styling a Favorite Number Message */
+.favorite-number {
+    font-size: 18px; /* Set the font size for the message */
+    color: blue; /* Change the text color to blue */
+  }
+  
+  .number {
+    font-weight: bold; /* Make the number bold */
+    font-size: 24px; /* Increase the font size for the number */
+    color: red; /* Change the number's color to red */
+  }
+
+  Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+
+/* CSS styles for displaying names */
+.name-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .name-list li {
+    font-size: 18px;
+    color: blue;
+    margin: 5px 0;
+  }
+
+  Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+
+/* CSS styles for greeting messages */
+.greeting {
+    font-size: 18px;
+    color: blue;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: green;
+  }
+
+  
+  Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
+/* CSS styles for displaying transportation statements */
+.transportation {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .type {
+    font-weight: bold;
+    color: blue;
+  }
+
+  
+  Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+
+/* CSS for styling the invitation */
+.invitation {
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  
+  Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+• Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+
+• Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+
+• Print a second set of invitation messages, one for each person who is still in your list.
+
+/* CSS for styling guest list */
+.guest-list {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .guest {
+    font-size: 16px;
+    list-style: none;
+    margin: 5px;
+  }
+  
+  /* CSS for styling invitation messages */
+  .invitation-messages {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .invitation {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  
+  More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+  • Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
+  
+  • Add one new guest to the beginning of your array.
+  
+  • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
+  
+/* CSS for styling guest list */
+.guest-list {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .guest {
+    font-size: 16px;
+    list-style: none;
+    margin: 5px;
+  }
+  
+  .announcement {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  /* CSS for styling invitation messages */
+  .invitation-messages {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .invitation {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+• Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
+
+• Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
+
+• Print a message to each of the two people still on your list, letting them know they’re still invited.
+
+• Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+
+CSS (styles.css):
+
+/* CSS for styling the messages */
+.message {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .message p {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  In this example, CSS is used to style the messages displayed on the webpage. You can adjust the CSS properties to achieve the desired styling for your messages.
+
+
+  /* Seeing the World: Think of at least five places in the world you’d like to visit.
+• Store the locations in a array. Make sure the array is not in alphabetical order.
+
+• Print your array in its original order.
+
+• Print your array in alphabetical order without modifying the actual list.
+
+• Show that your array is still in its original order by printing it.
+
+• Print your array in reverse alphabetical order without changing the order of the original list.
+
+• Show that your array is still in its original order by printing it again.
+
+• Reverse the order of your list. Print the array to show that its order has changed.
+
+• Reverse the order of your list again. Print the list to show it’s back to its original order.
+
+• Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
+
+• Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed. */
+
+CSS:
+
+/* CSS for styling the printed messages (optional) */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  
+  /* Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner. */
+
+  CSS (for styling, optional):
+
+/* Add CSS styles here (if desired) */
+
+
+/* They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items. */
+
+CSS (Cascading Style Sheets) is primarily used for styling and formatting web content. It is not a programming language that can be used to create objects or store data like JavaScript or TypeScript. Storing data and creating objects are typically done in programming languages, not CSS.
+
+If you have a specific scenario in mind for data storage or object creation, please provide more details, and I can help you write code in an appropriate programming language like JavaScript or TypeScript.
+
+
+
+
+
+
+
+
+

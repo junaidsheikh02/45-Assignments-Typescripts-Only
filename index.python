@@ -1,0 +1,728 @@
+Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+
+person_name = "Eric"
+message = f"Hello {person_name}, would you like to learn some Python today?"
+print(message)
+
+
+Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+
+person_name = "John Doe"
+lower_case_name = person_name.lower()
+upper_case_name = person_name.upper()
+title_case_name = person_name.title()
+
+print("Lowercase:", lower_case_name)
+print("Uppercase:", upper_case_name)
+print("Titlecase:", title_case_name)
+
+
+Famous Quote: Find a quote from a famous person you admir
+
+
+
+e. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
+
+
+from flask import Flask, render_template
+
+app = Flask(__name)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+
+famous_person = "Albert Einstein"
+famous_quote = "A person who never made a mistake never tried anything new."
+message = f"{famous_person} once said, '{famous_quote}'"
+print(message)
+
+
+Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def display_name():
+    name = "  \t\n John Doe  \t\n "
+    return render_template('index.html', name=name)
+
+if __name__ == '__main__':
+    app.run()
+
+
+Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+
+# Addition
+add_result = 5 + 3
+print(add_result)
+
+# Subtraction
+sub_result = 10 - 2
+print(sub_result)
+
+# Multiplication
+mul_result = 2 * 4
+print(mul_result)
+
+# Division
+div_result = 16 / 2
+print(div_result)
+
+
+You should create four lines that look like this:
+
+console.log(5 + 3)
+
+Your output should simply be four lines with the number 8 appearing once on each line.
+
+print(5 + 3)
+
+print(5 + 3)
+
+
+Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+
+favorite_number = 42
+message = f"My favorite number is {favorite_number}."
+print(message)
+
+
+Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+
+# Store your favorite number in a variable
+favorite_number = 7  # Replace 7 with your favorite number
+
+# Create a message that reveals your favorite number
+message = f"My favorite number is {favorite_number}."
+
+# Print the message
+print(message)
+
+Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
+
+# Store the names of your friends in a list
+names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+
+# Print each person's name one at a time
+for name in names:
+    print(name)
+
+
+Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name.
+
+# Store the names of your friends in a list
+names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+greeting_message = "Hello, "
+
+# Print personalized greetings to each friend
+for name in names:
+    personalized_message = greeting_message + name + "!"
+    print(personalized_message)
+
+
+Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+
+modes_of_transportation = ["motorcycle", "car", "bicycle", "scooter"]
+for mode in modes_of_transportation:
+    print("I would like to own a " + mode + ".")
+
+
+Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
+
+# Create a list of dinner guests
+guests = ["Albert Einstein", "Leonardo da Vinci", "Marilyn Monroe"]
+
+# Invite each guest to dinner
+for guest in guests:
+    print(f"Dear {guest}, you are invited to dinner.")
+
+
+
+
+Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
+
+• Start with your program from Exercise 14. Add a print statement at the end of your program stating the name of the guest who can’t make it.
+
+• Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
+
+• Print a second set of invitation messages, one for each person who is still in your list.
+
+
+
+# Create a list of dinner guests
+dinner_guests = ["Albert Einstein", "Leonardo da Vinci", "Marilyn Monroe"]
+
+# Print the guest who can't make it
+guest_cant_make_it = "Marilyn Monroe"
+print(f"{guest_cant_make_it} can't make it to the dinner.")
+
+# Replace the guest who can't make it with a new guest
+new_guest = "Isaac Newton"
+if guest_cant_make_it in dinner_guests:
+    index = dinner_guests.index(guest_cant_make_it)
+    dinner_guests[index] = new_guest
+
+# Print a new set of invitation messages
+for guest in dinner_guests:
+    print(f"Dear {guest}, you are invited to dinner. Please join us for a wonderful evening.")
+
+
+ More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+• Start with your program from Exercise 15. Add a print statement to the end of your program informing people that you found a bigger dinner table.
+
+• Add one new guest to the beginning of your array.
+
+• Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
+
+# Create a list of dinner guests
+dinner_guests = ['Albert Einstein', 'Leonardo da Vinci', 'Isaac Newton']
+
+# Print that a bigger dinner table has been found
+print("Good news! We found a bigger dinner table.")
+
+# Add new guests to the list
+dinner_guests.insert(0, 'Marie Curie')  # Add to the beginning
+dinner_guests.insert(2, 'Nikola Tesla')  # Add to the middle
+dinner_guests.append('Galileo Galilei')  # Add to the end
+
+# Print a new set of invitation messages
+for guest in dinner_guests:
+    print(f"Dear {guest}, you are invited to dinner. Please join us for a wonderful evening.")
+
+
+Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+• Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
+
+• Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
+
+• Print a message to each of the two people still on your list, letting them know they’re still invited.
+
+• Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+
+Python:
+
+guests = ['Albert Einstein', 'Leonardo da Vinci', 'Isaac Newton', 'Marie Curie', 'Nikola Tesla', 'Galileo Galilei']
+
+# Print a message that you can invite only two people
+print("Sorry, we can invite only two people for dinner.")
+
+# Remove guests one at a time until only two names remain
+while len(guests) > 2:
+    removed_guest = guests.pop()
+    print(f"Sorry, {removed_guest}, we can't invite you to dinner.")
+
+# Print a message to the two remaining people
+for guest in guests:
+    print(f"Dear {guest}, you're still invited to dinner.")
+
+# Remove the last two names to have an empty list
+guests = guests[:2]
+
+# Print the empty list
+print("Remaining guests: " + ', '.join(guests))
+
+These examples handle a shrinking guest list by removing guests one at a time until only two names remain and then print messages accordingly. Finally, the last two names are removed to have an empty list.
+
+
+Seeing the World: Think of at least five places in the world you’d like to visit.
+• Store the locations in a array. Make sure the array is not in alphabetical order.
+
+• Print your array in its original order.
+
+• Print your array in alphabetical order without modifying the actual list.
+
+• Show that your array is still in its original order by printing it.
+
+• Print your array in reverse alphabetical order without changing the order of the original list.
+
+• Show that your array is still in its original order by printing it again.
+
+• Reverse the order of your list. Print the array to show that its order has changed.
+
+• Reverse the order of your list again. Print the list to show it’s back to its original order.
+
+• Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
+
+• Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+
+Python:
+
+destinations = [
+  'Tokyo',
+  'Paris',
+  'Machu Picchu',
+  'Bora Bora',
+  'Santorini'
+]
+
+print('Original Order:', destinations)
+
+alphabetical_order = sorted(destinations)
+print('Alphabetical Order:', alphabetical_order)
+
+print('Original Order:', destinations)
+
+reverse_alphabetical_order = sorted(destinations, reverse=True)
+print('Reverse Alphabetical Order:', reverse_alphabetical_order)
+
+print('Original Order:', destinations)
+
+destinations.reverse()
+print('Reversed Order:', destinations)
+
+destinations.reverse()
+print('Original Order:', destinations)
+
+destinations.sort()
+print('Sorted in Alphabetical Order:', destinations)
+
+destinations.sort(reverse=True)
+print('Sorted in Reverse Alphabetical Order:', destinations)
+
+These examples store travel destinations in an array, perform various operations on the array, and print the results in the specified order. The code demonstrates how to sort, reverse, and manipulate arrays in different programming languages.
+
+
+Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+
+Python:
+
+dinner_guests = ['Albert Einstein', 'Leonardo da Vinci', 'Marilyn Monroe']
+
+# Print a message indicating the number of people invited to dinner
+print(f'You are inviting {len(dinner_guests)} people to dinner.')
+
+# Send invitations
+for guest in dinner_guests:
+    print(f'Dear {guest}, you are invited to dinner. Please join us for a wonderful evening.')
+
+These examples indicate the number of people invited to dinner and send invitations to the guests in HTML, CSS, TypeScript, JavaScript, and Python. You can choose the language that best suits your needs.
+
+
+Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+
+Python:
+
+mountains = ['Mount Everest', 'K2', 'Matterhorn', 'Kilimanjaro', 'Denali']
+
+# Print the list of mountains
+print('List of Mountains:', mountains)
+
+These examples create an array containing a list of mountains and print the list in HTML, CSS, TypeScript, JavaScript, and Python. You can choose the language that best suits your needs.
+
+They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+
+write coding on PYTHON only
+
+Certainly! In Python, you can create objects (dictionaries) containing various items. Here's an example of creating objects with different items:
+
+# Creating objects (dictionaries) with various items
+item1 = {
+    "name": "Laptop",
+    "brand": "Dell",
+    "price": 999.99,
+    "color": "Silver",
+    "in_stock": True
+}
+
+item2 = {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "genre": "Fiction",
+    "pages": 180
+}
+
+item3 = {
+    "fruit": "Apple",
+    "color": "Red",
+    "taste": "Sweet",
+    "weight": 150,  # in grams
+    "available": True
+}
+
+# Printing the created objects
+print("Item 1:", item1)
+print("Item 2:", item2)
+print("Item 3:", item3)
+
+In this Python code, we create three dictionaries (objects) containing various items such as a laptop, a book, and a fruit, each with different attributes. We then print these objects to display their contents.
+
+Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
+
+
+Write coding On PYTHON only 
+
+Certainly! You can intentionally create an index error by attempting to access an index that is out of range in a Python program. Here's an example:
+
+my_list = [1, 2, 3, 4, 5]
+
+# Intentionally trying to access an out-of-range index
+try:
+    print(my_list[10])  # This will produce an IndexError
+except IndexError as e:
+    print(f"Index Error: {e}")
+
+# Correcting the error by accessing a valid index
+print(my_list[2])  # Accessing a valid index
+
+
+In this example, we intentionally attempt to access an out-of-range index (index 10) in the my_list list, which will result in an IndexError. We catch the error using a try...except block and print the error message. Then, we correct the error by accessing a valid index (index 2) in the list.
+
+
+Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+
+let car = 'subaru';
+
+console.log("Is car == 'subaru'? I predict True.")
+
+console.log(car == 'subaru')
+
+• Look closely at your results, and make sure you understand why each line evaluates to True or False.
+
+• Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+
+
+write coding on PYTHON only 
+
+
+Sure, here are some conditional tests in Python with predictions for each test:
+
+# Test 1: Is the number 5 equal to 5?
+print("Is 5 == 5? I predict True.")
+print(5 == 5)  # True
+
+# Test 2: Is the string "apple" equal to "banana"?
+print("Is 'apple' == 'banana'? I predict False.")
+print('apple' == 'banana')  # False
+
+# Test 3: Is 10 not equal to 20?
+print("Is 10 != 20? I predict True.")
+print(10 != 20)  # True
+
+# Test 4: Is the number 7 greater than 3?
+print("Is 7 > 3? I predict True.")
+print(7 > 3)  # True
+
+# Test 5: Is 10 less than or equal to 10?
+print("Is 10 <= 10? I predict True.")
+print(10 <= 10)  # True
+
+# Test 6: Is 'cat' in the list of animals?
+animals = ['dog', 'cat', 'elephant']
+print("Is 'cat' in the list? I predict True.")
+print('cat' in animals)  # True
+
+# Test 7: Is the length of the word "Python" greater than 6?
+word = "Python"
+print("Is len('Python') > 6? I predict False.")
+print(len(word) > 6)  # False
+
+# Test 8: Is 1 equal to '1'?
+print("Is 1 == '1'? I predict False.")
+print(1 == '1')  # False
+
+# Test 9: Is (True and False) or (True or False) equal to True?
+print("Is (True and False) or (True or False) == True? I predict True.")
+print((True and False) or (True or False) == True)  # True
+
+# Test 10: Is not 'apple' equal to 'banana'?
+print("Is not 'apple' == 'banana'? I predict True.")
+print(not 'apple' == 'banana')  # True
+
+In these tests, each statement is followed by a prediction and the actual result. Make sure to review and understand why each test evaluates to True or False.
+
+
+More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+• Tests for equality and inequality with strings
+
+• Tests using the lower case function
+
+• Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+• Tests using "and" and "or" operators
+
+• Test whether an item is in a array
+
+• Test whether an item is not in a array
+
+write coding on python only
+
+Certainly, here are additional conditional tests in Python covering the mentioned scenarios:
+
+# Tests for equality and inequality with strings
+# Test 1: Is 'apple' equal to 'apple'?
+print("Is 'apple' == 'apple'? I predict True.")
+print('apple' == 'apple')  # True
+
+# Test 2: Is 'apple' not equal to 'banana'?
+print("Is 'apple' != 'banana'? I predict True.")
+print('apple' != 'banana')  # True
+
+# Tests using the lower case function
+# Test 3: Is 'HELLO' equal to 'hello' when both are converted to lowercase?
+print("Is 'HELLO'.lower() == 'hello'? I predict True.")
+print('HELLO'.lower() == 'hello')  # True
+
+# Numerical tests involving equality, inequality, greater than, less than, greater than or equal to, and less than or equal to
+# Test 4: Is 10 equal to 10?
+print("Is 10 == 10? I predict True.")
+print(10 == 10)  # True
+
+# Test 5: Is 5 not equal to 10?
+print("Is 5 != 10? I predict True.")
+print(5 != 10)  # True
+
+# Test 6: Is 20 greater than 15?
+print("Is 20 > 15? I predict True.")
+print(20 > 15)  # True
+
+# Test 7: Is 7 less than 12?
+print("Is 7 < 12? I predict True.")
+print(7 < 12)  # True
+
+# Test 8: Is 8 greater than or equal to 8?
+print("Is 8 >= 8? I predict True.")
+print(8 >= 8)  # True
+
+# Test 9: Is 5 less than or equal to 3?
+print("Is 5 <= 3? I predict False.")
+print(5 <= 3)  # False
+
+# Tests using "and" and "or" operators
+# Test 10: Is (True and False) equal to False?
+print("Is (True and False) == False? I predict True.")
+print((True and False) == False)  # True
+
+# Test 11: Is (True or False) equal to True?
+print("Is (True or False) == True? I predict True.")
+print((True or False) == True)  # True
+
+# Test whether an item is in an array
+fruits = ['apple', 'banana', 'cherry']
+# Test 12: Is 'banana' in the list of fruits?
+print("Is 'banana' in the list of fruits? I predict True.")
+print('banana' in fruits)  # True
+
+# Test 13: Is 'grape' in the list of fruits?
+print("Is 'grape' in the list of fruits? I predict False.")
+print('grape' in fruits)  # False
+
+# Test whether an item is not in an array
+# Test 14: Is 'pear' not in the list of fruits?
+print("Is 'pear' not in the list of fruits? I predict True.")
+print('pear' not in fruits)  # True
+
+# Test 15: Is 'apple' not in the list of fruits?
+print("Is 'apple' not in the list of fruits? I predict False.")
+print('apple' not in fruits)  # False
+
+These additional tests cover various scenarios as per your request, including string comparisons, numerical comparisons, logical operators, and membership tests in lists. Each test includes a prediction and the actual result.
+
+Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+• Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+
+• Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+
+write coding on TYPESCRIPT only
+
+Here's a TypeScript program that simulates an alien being shot down in a game. It includes an if statement to test whether the alien's color is green and prints a message for both the version that passes the test and the version that fails:
+
+// Create a variable called alien_color with different values
+const alien_color = 'green'; // You can change this to 'yellow' or 'red' to test different versions
+
+// Version 1: The alien's color is green (passing the if test)
+if (alien_color === 'green') {
+    console.log("The player just earned 5 points for shooting down the green alien.");
+}
+
+// Version 2: The alien's color is not green (failing the if test)
+if (alien_color !== 'green') {
+    // This version has no output because the condition is not met.
+}
+
+In this code, you can change the value of alien_color to 'yellow' or 'red' to test different versions. The first version with alien_color set to 'green' passes the if test and prints the message, while the second version with alien_color set to 'yellow' or 'red' fails the if test and has no output.
+
+
+In this code, you can change the value of alien_color to 'yellow' or 'red' to test different versions. The first version with alien_color set to 'green' passes the if test and prints the message, while the second version with alien_color set to 'yellow' or 'red' fails the if test and has no output.
+
+
+Alien Colors #2: Choose a color for an alien as you did in Exercise 25, and write an if-else chain.
+• If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+
+• If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+
+• Write one version of this program that runs the if block and another that runs the else block.
+
+WRITE CODING ON PYTHON ONLY
+
+Certainly, here's a Python program that implements an if-else chain to determine the points earned for shooting an alien based on its color:
+
+# Choose a color for the alien
+alien_color = 'green'  # You can change this to 'yellow' to test the else block
+
+# Version 1: The alien's color is green (runs the if block)
+if alien_color == 'green':
+    print("The player just earned 5 points for shooting the green alien.")
+else:
+    print("The player just earned 10 points for shooting the alien (not green).")
+
+# Version 2: The alien's color is not green (runs the else block)
+alien_color = 'yellow'  # Change the color to test the else block
+if alien_color == 'green':
+    print("The player just earned 5 points for shooting the green alien.")
+else:
+    print("The player just earned 10 points for shooting the alien (not green).")
+
+In this code, two versions are provided. The first version has alien_color set to 'green', which runs the if block, and the second version has alien_color set to 'yellow', which runs the else block. You can change the value of alien_color to test different scenarios.
+
+Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+• If the alien is green, print a message that the player earned 5 points.
+
+• If the alien is yellow, print a message that the player earned 10 points.
+
+• If the alien is red, print a message that the player earned 15 points.
+
+• Write three versions of this program, making sure each message is printed for the appropriate color alien.
+
+WRITE CODING ON PYTHON ONLY 
+
+Here's a Python program that turns the if-else chain from Exercise 5-4 into an if-else chain with three versions, each corresponding to a different color of the alien:
+
+# Version 1: The alien is green (earns 5 points)
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("The player earned 5 points for shooting the green alien.")
+elif alien_color == 'yellow':
+    print("The player earned 10 points for shooting the yellow alien.")
+else:
+    print("The player earned 15 points for shooting the red alien.")
+
+# Version 2: The alien is yellow (earns 10 points)
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("The player earned 5 points for shooting the green alien.")
+elif alien_color == 'yellow':
+    print("The player earned 10 points for shooting the yellow alien.")
+else:
+    print("The player earned 15 points for shooting the red alien.")
+
+# Version 3: The alien is red (earns 15 points)
+alien_color = 'red'
+
+if alien_color == 'green':
+    print("The player earned 5 points for shooting the green alien.")
+elif alien_color == 'yellow':
+    print("The player earned 10 points for shooting the yellow alien.")
+else:
+    print("The player earned 15 points for shooting the red alien.")
+
+In each version, the program determines the points earned based on the color of the alien and prints the corresponding message. You can change the value of alien_color in each version to test different scenarios.
+
+Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+• If the person is less than 2 years old, print a message that the person is a baby.
+
+• If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
+
+• If the person is at least 4 years old but less than 13, print a message that the person is a kid.
+
+• If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
+
+• If the person is at least 20 years old but less than 65, print a message that the person is an adult.
+
+• If the person is age 65 or older, print a message that the person is an elder.
+
+WRITE CODING ON PYTHON ONLY
+
+Here's a Python program that determines a person's stage of life based on their age using an if-else chain:
+
+# Set the age of the person
+age = 30  # You can change the age to test different stages of life
+
+# Determine the stage of life based on age
+if age < 2:
+    print("The person is a baby.")
+elif age < 4:
+    print("The person is a toddler.")
+elif age < 13:
+    print("The person is a kid.")
+elif age < 20:
+    print("The person is a teenager.")
+elif age < 65:
+    print("The person is an adult.")
+else:
+    print("The person is an elder.")
+
+
+In this program, we set the age of the person and then use an if-else chain to determine and print the corresponding stage of life based on the given age. You can change the value of age to test different stages.
+
+
+Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+• Make a array of your three favorite fruits and call it favorite_fruits.
+
+• Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+
+write coding on python 
+
+Certainly! Here's a simple Python program that stores your favorite number in a variable and then creates a message to reveal it:
+
+# Store your favorite number in a variable
+favorite_number = 7  # You can change this to your actual favorite number
+
+# Create a message to reveal your favorite number
+message = f"My favorite number is {favorite_number}."
+
+# Print the message
+print(message)
+
+Make sure to replace the value of favorite_number with your actual favorite number. When you run this code, it will print a message that reveals your favorite number.
+
+Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
